@@ -1,4 +1,4 @@
-# CS 4318 Project - Compiler Construction
+# CS 4318 Project - Compiler Construction - Autumn 2024
 ## Purpose of the Project
 This was my project for CS 4318 - Compiler Construction. It was a project split into 4 parts, where in the end we would have a built in monkeyC compiler that would take monkeyC code and compile it into assembly code.
 
