@@ -1,0 +1,37 @@
+1. Felipe Wolff Tlusty (ykt12)
+   Bhaskar Kuruvangattil Rejis (mwj30)
+   CS 4318
+
+2. We've been talking and working on the project daily, working on the project itself whenever possible. Felipe worked mostly on the parser and Symbol table files, while Bhaskar 
+focused mostly on the AST file, but the efforts put in the project were shared equally. The software platform used for code sharing was txstate's github. 
+
+3. The test files created for testing our program were test_normal.mC, which tested a code written including a mix of the other test cases provided by the instructor in a single test file, and test_error.mC
+which included errors to test how the parser handles undeclared variables in a way that it would not stop the parser from finishing running. The files' contents is provided below:
+===============================================================================
+test_normal.mC:
+void print() {
+    char msg[6];
+    int i;
+    while (i < 5) {
+        i = i + 1;
+    }
+}
+int main() {
+    int x;
+    char letter;
+    x = 10;
+    letter = 'A';
+    print();
+    return 0;
+}
+===============================================================================
+test_error.mC:
+int main() {
+    int num1;
+    int num2;
+    num1 = 10;
+    num2 = 20;
+    average = num1 + num2 / 2;
+    total = num1 + num2; 
+    return 0;
+}

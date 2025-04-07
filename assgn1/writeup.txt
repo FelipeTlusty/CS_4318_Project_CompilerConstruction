@@ -1,0 +1,8 @@
+1. Felipe Wolff Tlusty (ykt12)
+   Jamie Garland	()
+   CS_4318
+
+2. I plan to work around 8-10 hours a week on this project, putting more hours if needed. The software platforms planned to be used for the collaboration are discord for communication and github for the code. I, Felipe, had almost no communication from my partner during the duration of this assignment. All of the code was written by me. Communication was tried to be established during multiple occasions, but the other team member never tried to 
+meet to separate work and establish workloads.
+
+3. One is by just providing a file with all possible tokens and observing if they pass, and the other is creating a file that simulates actual code to see if the tokens are identified correctly with code writting norms. Both files are included in this submissions. (test0.mC and test2.mC respectively).
